@@ -23,9 +23,8 @@ export default function BeyondWork() {
                 lineHeight: 1.6,
                 maxWidth: '60ch',
             }}>
-                When I'm not in front of a terminal, I'm usually in the mountains — bow hunting,
-                fly fishing alpine lakes, or logging miles with a pack. I believe the same patience
-                and situational awareness that makes a good backcountry hunter makes a good analyst.
+                When I'm not in front of a terminal, I am outside. I love bow hunting, shed hunting,
+                fly fishing alpine lakes, ice fishing, backpacking, golfing, and chasing new adventures.   
             </p>
 
             <div className="photoGrid">
