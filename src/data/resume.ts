@@ -40,7 +40,7 @@ export type Resume = {
 export const resume: Resume = {
   name: "Amy (Sessions) Petersen",
   headline:
-    "Information Security professional with experience designing compliance programs, supporting NIST-aligned assessments, and monitoring enterprise security controls in a 4.5K+ user environment",
+    "Information Security professional with experience designing compliance programs, supporting NIST-aligned assessments, monitoring enterprise security controls and programs, and performing security audits and assessments. Skilled in risk management, control mapping, and security program development.",
   location: "Lehi, Utah",
   email: "amysessions16@gmail.com",
   links: {
@@ -161,8 +161,7 @@ export const resume: Resume = {
       school: "University of Utah – David Eccles School of Business",
       degree: "M.S. Cybersecurity Management",
       start: "Fall 2026",
-      notes: [
-      ],
+      notes: [],
     },
   ],
 
@@ -174,7 +173,7 @@ export const resume: Resume = {
       "Identity & Access Management",
       "Cloud & Infrastructure Security",
       "Secure Web Development",
-      "Auditing & Risk Assessment (SOC 2 Type II, FFIEC audits, NIST CSF self-assessments etc.)"
+      "Auditing & Risk Assessment (SOC 2 Type II, FFIEC audits, NIST CSF self-assessments etc.)",
     ],
     tools: [
       "CrowdStrike",
