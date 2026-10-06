@@ -54,14 +54,30 @@ export const resume: Resume = {
     "Coordinated with IT, finance, and operational stakeholders to assign control ownership and track remediation",
     "Presented compliance progress and risk findings to leadership",
     "Redesigned IT support portal and knowledge base, improving employee self-service experience",
+    "Assisted in performing critical security assessments and audits to ensure compliance with regulatory requirements and industry standards",
   ],
 
   experience: [
     {
-      company: "Clyde Companies",
-      title: "Cybersecurity Compliance Officer",
-      start: "Aug 2025",
+      company: "WebBank",
+      title: "Information Security Analyst",
+      start: "July 2026",
       end: "Present",
+      location: "Salt Lake City, UT",
+      bullets: [
+        "Assisted in perfomring critical security assessments and audits to ensure compliance with regulatory requirements and industry standards",
+        "Participated in NIST Cybersecurity Framework (CSF) assessmen",
+        "Led and completed User Access Reviews (UARs) for critical systems, ensuring proper access controls and compliance with security policies",
+        "Perfomed and provided training on security awareness and incident response procedures to employees, enhancing overall security posture and reducing risk of security incidents",
+        "Contributed to efforts to implement AI automation in critical functions, improving efficiency and accuracy of security processes",
+        "Monitored Strategic Partner Security Programs to ensure compliance with security requirements and standards, mitigating potential risks to the organization",
+      ],
+    },
+    {
+      company: "Clyde Companies",
+      title: "Cybersecurity GRC Analyst",
+      start: "Aug 2025",
+      end: "July 2026",
       location: "Lindon, UT",
       bullets: [
         "Developed PCI DSS compliance program (4.5K+ user environment), gap assessment, control mapping, remediation, audit prep",
@@ -145,18 +161,20 @@ export const resume: Resume = {
       school: "University of Utah – David Eccles School of Business",
       degree: "M.S. Cybersecurity Management",
       start: "Fall 2026",
-      notes: [],
+      notes: [
+      ],
     },
   ],
 
   skills: {
     domains: [
       "GRC & Compliance (PCI DSS, NIST CSF, NIST AI RMF)",
-      "Risk Assessment & Control Mapping",
+      "Risk Management & Control Mapping",
       "Network Security (IDS/IPS) & Traffic Analysis",
       "Identity & Access Management",
       "Cloud & Infrastructure Security",
       "Secure Web Development",
+      "Auditing & Risk Assessment (SOC 2 Type II, FFIEC audits, NIST CSF self-assessments etc.)"
     ],
     tools: [
       "CrowdStrike",
