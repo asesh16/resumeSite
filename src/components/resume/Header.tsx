@@ -1,8 +1,17 @@
 import { resume } from '../../data/resume';
+import headshot from '../../assets/utahHeadshot.jpg';
 
 function Header() {
     return (
-        <header style={{ paddingBottom: 32 }} className="fade-up">
+        <header style={{
+            paddingBottom: 32,
+            display: 'flex',
+            flexWrap: 'wrap-reverse',
+            alignItems: 'center',
+            justifyContent: 'space-between',
+            gap: 24,
+        }} className="fade-up">
+            <div style={{ flex: '1 1 320px' }}>
             {/* Eyebrow */}
             <p style={{
                 margin: '0 0 10px',
@@ -85,6 +94,19 @@ function Header() {
                     </a>
                 )}
             </div>
+            </div>
+
+            <img
+                src={headshot}
+                alt={resume.name}
+                style={{
+                    width: 128,
+                    height: 128,
+                    borderRadius: '50%',
+                    objectFit: 'cover',
+                    flex: '0 0 auto',
+                }}
+            />
         </header>
     );
 }
